@@ -7,9 +7,9 @@ public final class App {
 	private App() {
 	}
 
-	public static void main(String[] args) {
-		System.out.println("Hello World!");
-	}
+	// public static void main(String[] args) {
+	// System.out.println("Hello World!");
+	// }
 
 	public static List<String> transformerNombreEnArray(String nombre) {
 		String[] arrayChiffres = nombre.split(""); // ["2", "2", "bonjour"]
